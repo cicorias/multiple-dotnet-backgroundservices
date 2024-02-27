@@ -10,6 +10,9 @@ namespace TestDualBackground
             builder.Services.AddHostedService(provider => new Worker(2));
 
 
+
+
+
             var host = builder.Build();
             host.Run();
         }
